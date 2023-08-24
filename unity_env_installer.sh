@@ -24,7 +24,9 @@ git clone https://github.com/s-sd/RLUnityEnvInstaller.git
 unzip RLUnityEnvInstaller/SoccerTwos/SoccerTwos_Data.zip -d RLUnityEnvInstaller/SoccerTwos/
 unzip RLUnityEnvInstaller/SoccerTwos/UnityPlayer.zip -d RLUnityEnvInstaller/SoccerTwos/
 
-echo 'Path for Unity Environment RLUnityEnvInstaller/SoccerTwos/SoccerTwos'
+chmod -R 755 ./RLUnityEnvInstaller/SoccerTwos/SoccerTwos.x86_64
+
+echo 'Path for Unity Environment ./RLUnityEnvInstaller/SoccerTwos/SoccerTwos'
 
 # python code
 # from mlagents_envs.environment import UnityEnvironment
